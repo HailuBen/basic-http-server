@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 
 const server = http.createServer((request, response) => {
-    console.log(`Request incoming from: ${request.url}`);   //show url location of request
+    // console.log(`Request incoming from: ${request.url}`);   //show url location of request
 
     let fileName = '';  //fileName variable to hold an html page
 
